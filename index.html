@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future - Health Care</title>
+    <!--====== Aos css ======-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--================== font-awesome css =====================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--================= swiper css ===========================-->
+    <link rel="stylesheet" href="https://md-aqil.github.io/images/swiper.min.css">
+    <!--================= Bootstrap css ========================-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--================ Style css =============================-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body onload="preloaderfun()">
+    <!--=========== preloader ====================-->
+    <div id="loading">
+        <span class="loader">
+            <img src="assets/images/logo/logo.png" alt="">
+        </span>
+    </div>
+    <script>
+        var preloader = document.getElementById("loading");
+        function preloaderfun() {
+            preloader.style.display = 'none';
+        };
+    </script>
+    <!--=================== preloader end ========================-->
+    <!-- ====================== header start ======================= -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo/Logo.png" alt="logo" class="logo">
+                    <img src="assets/images/logo/logo2.png" class="logo2" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> About us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Our Mission</a></li>
+                                <li><a class="dropdown-item" href="#">Our Expertise</a></li>
+                                <li><a class="dropdown-item" href="#">Our Team</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Advertisement
+                                Solutions</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">FQHC Billing</a></li>
+                                <li><a class="dropdown-item" href="#">Pharmacy Solutions</a></li>
+                                <li><a class="dropdown-item" href="#">Practice Expansion</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">Resources</a>
+                            <!-- ===== dropdown ======== -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Brochure</a></li>
+                                <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                                <li><a class="dropdown-item" href="#">Latest News</a>
+                            </ul>
+                            <!-- ====/ dropdown =========== -->
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">FAQ</a>
+                        <li class="nav-item"> <a class="nav-link" href="#">Careers</a>
+                            <!-- <li class="nav-item"> <a class="nav-link" href="#">Contact</a> -->
+                            <!-- ====== dropdown right ======== -->
+                            <!-- / ============= dropdown right ========= -->
+                        </li>
+                        <li class="nav-item  mt-lg-2 my-md-1 my-3">
+                            <a class=" main-btn" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ====================== header end ========================= -->
+    <!--======================= banner PART start ====================-->
+    <div class=" banner-header">
+        <div class="container ">
+            <div class="row align-items-center banner px-2">
+                <div class="col-lg-6 col-xl-6 banner-txt" data-aos="fade-right">
+                    <h1>HOW DO COVERED <br> ENTITIES OBTAIN DISCOUNTS?
+                    </h1>
+                    <p class="">Upon registration, a covered entity would have to <br> contact its wholesaler to
+                        establish its account 340B. .
+                    </p>
+                    <div class="banner-btn">
+                        <a href="#" class="main-btn">Book Now</a>
+                        <a href="#" class="main-btn ms-lg-2">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6 banner-img-section" data-aos="fade-left">
+                    <div class="banner-img">
+                        <img src="assets/images/banner/banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================== banner PART end ========================-->
+    <!-- ==================== company logo ========================== -->
+    <section class="clients">
+        <div class="container">
+            <div class="clients-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><img src="assets/images/company-logo/client-1.png" class="img-fluid"
+                            alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/company-logo/client-2.png" class="img-fluid"
+                            alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/company-logo/client-3.png" class="img-fluid"
+                            alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/company-logo/client-4.png" class="img-fluid"
+                            alt=""></div>
+
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+    </section>
+    <!-- ==================== company logo end ====================== -->
+    <!-- ============= service section ============================= -->
+    <section class="service-area">
+        <div class="container">
+            <div class="section-title row" data-aos="fade-down">
+                <h5 class="sub-title col-md-12">What we do</h5>
+                <h2 class="title col-lg-5 col-md-12">We provide the perfect solution for the growth of your enterprise.
+                </h2>
+            </div>
+            <div class="row services  service-slider swiper" data-aos="zoom-in">
+                <div class="swiper-wrapper">
+                    <!-- ========= 1 ================ -->
+                    <div class="col-md-4 service-box swiper-slide">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>
+                                HANDLING THE REVENUE CYCLE.
+                            </h3>
+                            <p>
+                                We provide our customers with an effective income cycle solution.
+                            </p>
+                            <a href="#" class="main-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ========= /1 ================ -->
+                    <!-- ========= 2 ================ -->
+                    <div class="col-md-4 service-box swiper-slide">
+                        <div class="service-icon">
+                            <i class="fas fa-money-bill"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>
+                                VALUE ORIENTED <br> CARE.
+                            </h3>
+                            <p>
+                                Fedora is currently supporting customers to understand the implications of QPP.
+                            </p>
+                            <a href="#" class="main-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ========= /2 ================ -->
+                    <!-- ========= 3 ================ -->
+                    <div class="col-md-4 service-box swiper-slide">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>
+                                GROW YOUR <br> BUSINESS
+                            </h3>
+                            <p>
+                                We help identify the best ways to <br> improve your business
+                            </p>
+                            <a href="#" class="main-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ========= /3 ================ -->
+                    <!-- ========= 1 ================ -->
+                    <div class="col-md-4 service-box swiper-slide">
+                        <div class="service-icon">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>
+                                ONCOLOGY <br> RCM
+                            </h3>
+                            <p>
+                                We cater to so much oncology <br> providers.
+                            </p>
+                            <a href="#" class="main-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ========= /1 ================ -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============= service section end ======================== -->
+    <!-- ============== count section ============== -->
+    <section class="counter-area">
+        <div class="row" data-aos="zoom-out">
+            <div class="col-lg-0 col-xl-2  col-md-0 counter-box"></div>
+            <!-- === 1 === -->
+            <div class="col-lg-3 col-xl-2 my-2 col-md-3 counter-box">
+                <div class="counter-icon">
+                    <i class="fas fa-file-signature"></i>
+                </div>
+                <div class="counter-text">
+                    <p>Providers</p>
+                    <p><span class="count-num" id="count1"></span> <span class="count-num"> +</span></p>
+                </div>
+            </div>
+            <!-- === /1 === -->
+            <!-- === 2 === -->
+            <div class="col-lg-3 col-xl-2 my-2 col-md-3 counter-box">
+                <div class="counter-icon">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                </div>
+                <div class="counter-text">
+                    <p>Raised by Clients</p>
+                    <p><span class="count-num" id="count2"></span><span class="count-num">MN</span></p>
+                </div>
+            </div>
+            <!-- === /2 === -->
+            <!-- === 3 === -->
+            <div class="col-lg-3 col-xl-2 my-2 col-md-3 counter-box">
+                <div class="counter-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="counter-text">
+                    <p>Annual Cases</p>
+                    <p><span class="count-num" id="count3"></span> <span class="count-num">MN</span></p>
+                </div>
+            </div>
+            <!-- === /3 === -->
+            <!-- === 3 === -->
+            <div class="col-lg-3 col-xl-2 my-2 col-md-3 counter-box">
+                <div class="counter-icon">
+                    <i class="fas fa-hand-holding-water"></i>
+                </div>
+                <div class="counter-text">
+                    <p>Improvement Rate</p>
+                    <p><span class="count-num" id="count4"></span> <span class="count-num">%</span></p>
+                </div>
+            </div>
+            <!-- === /3 === -->
+            <div class="col-lg-0 col-xl-2  col-md-0 counter-box"></div>
+        </div>
+    </section>
+    <!-- ============== count section end ========== -->
+    <!-- ============== Blog area ================ -->
+    <section class="blog-area">
+        <div class="container">
+            <div class="section-title row" data-aos="fade-down">
+                <h5 class="sub-title col-md-12">Our Serving</h5>
+                <h2 class="title col-lg-5 col-md-12">We Serving Physician Practices, Hospitals, & Health Systems</h2>
+            </div>
+            <div class="row blog-section" data-aos="zoom-in">
+                <div class="col-lg-4 col-md-6 blog-box">
+                    <div class="blogs">
+                        <div class="blog-img">
+                            <img src="assets/images/blog/b1.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Physician Practices</h3>
+                            <p>Physician Practice means a medical practice of one or more physicians organized
+                                to provide patient care services, but which practice is not part of a Hospital.</p>
+                            <a href="#" class="main-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ======== 2 ====== -->
+                <div class="col-lg-4  col-md-6 blog-box">
+                    <div class="blogs">
+                        <div class="blog-img">
+                            <img src="assets/images/blog/b2.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Revenue Cycle Solutions</h3>
+                            <p>Maximize revenues, reduce costs and improve cash flow. and
+                                financial success.
+                                Our RCM services include coding, data entry, billing, claims management.
+                            </p>
+                            <a href="#" class="main-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========= 3 ========== -->
+                <div class="col-md-6 col-lg-4 blog-box">
+                    <div class="blogs">
+                        <div class="blog-img">
+                            <img src="assets/images/blog/b3.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>340B Pharmacy Solutions</h3>
+                            <p>The 340B Program offers eligible safety net health care providers access to low-cost
+                                medications.
+                                which allows them to expand the type and volume of care.
+                            </p>
+                            <a href="#" class="main-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- =======/3 =========== -->
+            </div>
+        </div>
+    </section>
+    <!-- ============= Blog area end ============ -->
+    <!-- ====================== cta banner ==================== -->
+    <section class="cta-banner-area">
+        <div class="container cta-banner">
+            <div class="row align-items-center">
+                <div class="col-lg-3" data-aos="fade-right">
+                    <div class="cta-profile">
+                        <img src="assets/images/cta/profile-cta.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 my-lg-o my-4" data-aos="zoom-in">
+                    <div class="cta-text">
+                        <h3>
+                            We are experts in FQHC solutions
+                        </h3>
+                        <p>
+                            We are experts in FQHC solutions. Find out how we've helped other FQHCs grow
+                            The patient base, they have... Maybe you're one of them! Reserve your complimentary trial
+                            today.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3  ps-lg-5 my-lg-o my-4" data-aos="fade-left">
+                    <div class="cta-btn d-block mx-auto">
+                        <a href="#" class="main-btn">Contact Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ====================== cta banner end ================ -->
+    <!-- ===================== testimonial section start =========== -->
+    <div class="testimonial-area">
+        <div class="container">
+            <div class="row  testimonial  testimonial-slider swiper">
+                <div class="section-title row" data-aos="fade-down">
+                    <h5 class="sub-title col-md-12">TESTIMONIALS</h5>
+                    <h2 class="title col-md-4">See what our customer
+                        say about us</h2>
+                </div>
+                <div class="swiper-wrapper">
+                    <!-- ========= 1 ================ -->
+                    <div class="col-lg-4 col-md-6 testimonial-box swiper-slide">
+                        <div class="testimonial-text">
+                            <p>
+                                “Assistance in payer management
+                                through contract analysis, negotiation, and monitoring.”
+                            </p>
+                            <h4>Catherine Walk</h4>
+                            <h6>CEO &amp; Founder</h6>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                    </div>
+                    <!-- ========= /1 ================ -->
+                    <!-- ========= 2 ================ -->
+                    <div class="col-lg-4  col-md-6 testimonial-box swiper-slide">
+                        <div class="testimonial-text">
+
+                            <p>
+                                “Stared operation the pharmacy management program and turned around pharmacy
+                                and compliance from negative to positive. We expect to suppress 100% growth”
+                            </p>
+                            <h4>Justin Devid</h4>
+                            <h6>DR &amp; PHD</h6>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                    </div>
+                    <!-- ========= /2 ================ -->
+                    <!-- ========= 3 ================ -->
+                    <div class="col-lg-4  col-md-6 testimonial-box swiper-slide">
+                        <div class="testimonial-text">
+                            <p>
+                                “Offered a solution whice worked extreamely well. It plugged revenue wholes and
+                                raised revenue collection by 58% in eight months”
+                            </p>
+                            <h4>William Mat</h4>
+                            <h6>Assistance &amp; Doctor</h6>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                    </div>
+                    <!-- ========= /3 ================ -->
+                    <!-- ========= 1 ================ -->
+                    <div class="col-lg-4  col-md-6 testimonial-box swiper-slide">
+                        <div class="testimonial-text">
+                            <p>
+                                “Fedora is currently assisting a number of clients in their transition from
+                                fee-for-service to value based care under the Oncology Care Model .”
+                            </p>
+                            <h4>Mithel Ronaldo</h4>
+                            <h6>MBBS &amp; Engineer</h6>
+                            <i class="fas fa-quote-right"></i>
+
+                        </div>
+                    </div>
+                    <!-- ========= /1 ================ -->
+                    <!-- ========= 2 ================ -->
+                    <div class="col-lg-4  col-md-6 testimonial-box swiper-slide">
+                        <div class="testimonial-text">
+
+                            <p>
+                                “We Searching for what you have from long and we are very happy with that your services
+                                thank you and wish for more growth”
+                            </p>
+                            <h4>Kishan Jackson</h4>
+                            <h6>CEO &amp; Founder</h6>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                    </div>
+                    <!-- ========= /2 ================ -->
+                  
+
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-btn-wrap  d-none">
+                    <div class="swiper-btn-prev"><i class="fas fa-angle-left"></i></div>
+                    <div class="swiper-btn-next"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <!-- / -->
+            </div>
+        </div>
+    </div>
+    <!-- ===================== testimonial section end ============= -->
+    <!-- ===================== form section ===================== -->
+    <section class="form-area">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title " data-aos="fade-down">
+                    <h5 class="sub-title">Don't miss out!</h5>
+                    <h2 class="title">Get our latest news & updates <br> straight to your inbox </h2>
+                    <p>Please drop your email below to get daily update about what we do</p>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-10 col-md-10 mx-auto form " data-aos="zoom-in">
+                <form>
+                    <div class="form-group inbox-form">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter Your Email Adress" required>
+                        <button type="submit" class="main-btn">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ===================== form section end ================ -->
+    <!-- ===================== footer start ================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 mb-4 ps-3 col-md-6 row">
+                    <a class="footer-logo col-md-12" href="index.html"><img src="assets/images/logo/logo.png"
+                            alt=""></a>
+                    <p class="py-3 col-md-8">We offers a multi-disciplinary team of experts who understand how to
+                        streamline and enhance operations.</p>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-md-4 d-blok mx-auto ps-lg-5 mb-4 footer-link">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="links"> Contact Us </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 ps-3 mb-4   col-md-6">
+                    <h5>Adress</h5>
+                    <p>Akshya Nagar 1st Block 1st Cross, <br> Rammurthy nagar, Bangalore-560016</p>
+
+                    <div class="d-flex my-3">
+                        <a class="social-btn me-1" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-btn mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-btn mx-1" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="social-btn mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <div class="row py-2 px-3 ">
+            <div class="text-lg-center py-2 px-2">
+                <p>© 2022 Copyright Future - Health Care</p>
+            </div>
+        </div>
+    </div>
+    <!-- ==================== / footer end =============== -->
+    <!--===================== Aos js ===============================-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==================== swiper js ============================ -->
+    <script src="https://md-aqil.github.io/images/swiper.min.js"></script>
+    <!--==================== Bootstrap js ===========================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!--=================== Main js ================================-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

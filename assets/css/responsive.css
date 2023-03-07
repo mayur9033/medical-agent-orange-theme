@@ -1,0 +1,123 @@
+@media(max-width:1364px)
+{
+   
+    /* .banner-header h1
+    {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height:2.5rem;
+        margin-bottom: 1.2rem;
+    } */
+}
+
+@media(max-width:991px) {
+
+    /* ============ navbar ========== */
+    .header .dropdown-menu .dropdown-menu {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: .5rem;
+    }
+
+    .header .navbar-nav {
+        background-color: var(--white);
+        padding: 1rem 2rem;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .header .nav-link
+    {
+        color: var(--text-color);
+    }
+    .header .navbar .nav-item .dropdown-menu {
+
+        padding: 10px 0;
+        border: none;
+        box-shadow: var(--box-shadow);
+    }
+
+    .header .navbar .nav-item .dropdown-menu .dropdown-item {
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: none;
+        color: var(--text-color);
+        border: none;
+        background-color: var(--white);
+    }
+
+    .header .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+        color: var(--effect)
+    }
+
+    .header .navbar .nav-item:hover .nav-link {
+        color: var(--effect);
+    }
+    /* ========== banner ========= */
+    .banner-header
+    {
+        padding: 5rem 0;
+        background-size:cover;
+    }
+    .banner-header::after {
+      
+        width: 278px;
+        height: 278px;
+        content: '';
+        right:-5%;
+        top:60%;
+      }
+      .banner-header::before {
+       display: none;
+      }
+    .banner-img-section .banner-img
+    {
+        position:static;
+    padding:1rem;
+}
+       
+    
+    .banner-header p
+    {
+        margin-bottom: 1.2rem;
+    }
+    .banner-header h1
+    {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height:2.5rem;
+        margin-bottom: 1.2rem;
+    }
+    /* ========= counter ==== */
+    .counter-area::after 
+    {
+        display: none;
+    }
+    /* ====== testimonial ========= */
+    .testimonial-text i{
+       
+        right: 0px;
+        font-size: 2rem;
+        bottom: 12px;
+        color: var(--bg);
+    }
+    
+     /* =========== form =========*/ 
+     .form-area:before {
+       display: none;
+      }
+      
+      .form-area:after {
+        display: none;
+      }
+}
+
+@media(max-width:512px)
+{
+    .form-area .inbox-form .main-btn
+{
+    position:relative;
+    margin-left: 1rem;
+  
+}
+}
